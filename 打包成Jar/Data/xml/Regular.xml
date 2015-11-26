@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>key为Java正则表达式，value为替换值和示例，用※★※隔开</comment>
+<entry key="\([\d\-\.]{1,}[,\s]{1,}[\d\-\.]{1,}[,\s]{1,}[\d\-\.%]{1,},\s实时行情\)">※★※(6.56, 0.08, 1.24%, 实时行情)</entry>
+<entry key="\([\d\-\.]{1,}[,\s]{1,}[\d\-\.]{1,}[,\s]{1,}[\d\-\.%]{1,}\)">※★※eg:(11.630, 1.06, 10.03%)</entry>
+<entry key="/(?=&#10;)">※★※★小标题后的/</entry>
+<entry key="(?&lt;=(\s)|(^))http://\S*?(?=(\s)|($))">※★※复制图片时出现的网址</entry>
+<entry key="\[[\d\-\.%]{1,}\]">※★※eg:[10.03%]</entry>
+<entry key="\[[\d\-\.%]{1,}\s资金\s研报\]">※★※eg:[35.8% 资金 研报]</entry>
+<entry key="\(\d{6},[(股吧)(基金)]{1,}\)">※★※eg:(600648,股吧)</entry>
+<entry key="[\(\[][(博客)(,微博)(微博)(,博客)]{1,}[\)\]]">※★※eg:(微博)[微博](博客,微博)</entry>
+<entry key="&#10;{1,}">
+
+※★※一个或多个回车符替换成二个</entry>
+</properties>
